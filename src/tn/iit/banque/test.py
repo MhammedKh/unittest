@@ -4,7 +4,8 @@
 
 import unittest
 
-
+from Personne import Personne
+from Compte import Compte
 class  TestCase(unittest.TestCase):
     #def setUp(self):
     #    self.foo = ()
