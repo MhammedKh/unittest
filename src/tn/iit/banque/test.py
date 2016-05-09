@@ -5,12 +5,10 @@
 import unittest
 
 
-from Compte import Compte
-from Personne  import Personne
-
-class  New_TestCase(unittest.TestCase):
-
-    
+class  TestCase(unittest.TestCase):
+    #def setUp(self):
+    #    self.foo = ()
+    #
 
     #def tearDown(self):
     #    self.foo.dispose()
@@ -25,7 +23,6 @@ class  New_TestCase(unittest.TestCase):
         p.ajouter_compte(c)
   #      p.ajouter_compte(c2)
         self.assertIn(c2,p.comp)
-        
 
 if __name__ == '__main__':
     unittest.main()
