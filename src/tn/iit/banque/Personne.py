@@ -34,7 +34,7 @@ class  Personne():
                 
     def affiche_solde_compte(self,num):
         for s in self.comp:
-            if() s.num==num:
+            if s.num==num:
                  print "le compte a contient ",str(s.solde),"dinars"
             
         
