@@ -21,7 +21,7 @@ class  TestCase(unittest.TestCase):
         c2=Compte(2,700)
         p=Personne(1,"Ali","kharrat")
         p.ajouter_compte(c)
-  #      p.ajouter_compte(c2)
+        p.ajouter_compte(c2)
         self.assertIn(c2,p.comp)
 
 if __name__ == '__main__':

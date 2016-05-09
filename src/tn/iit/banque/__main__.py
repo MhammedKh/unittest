@@ -3,6 +3,7 @@
 # and open the template in the editor.
 from Personne import Personne
 from Compte import Compte
+from test import test
 if __name__ == "__main__":
     c=Compte(1,500)
     c2=Compte(2,700)
