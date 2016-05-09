@@ -3,7 +3,7 @@
 # and open the template in the editor
 
 
-
+from Compte import Compte
 class  Personne():
     
     def __init__(self, cin, nom, prenom):
@@ -23,19 +23,19 @@ class  Personne():
         
     def debuter_compte(self,num,montant):
         for s in range(len(self.comp)):
-            if s.id==num:
+            if s.num==num:
                 s.debuter_solde(montant)
                 
     def crediter_compte(self,num,montant):
-        for s in range(len(self.comp)):
-            if s.id==num:
+        for s in self.comp:
+            if s.num==num:
                 s.crediter_solde(montant)
                 
                 
     def affiche_solde_compte(self,num):
-        for s in range(len(self.comp)):
-            if s.id==num:
-                 print "le compte a contient ",str(d.solde),"dinars"
+        for s in self.comp:
+            if s.num==num:
+                 print "le compte a contient ",str(s.solde),"dinars"
             
         
      

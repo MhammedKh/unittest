@@ -9,6 +9,6 @@ if __name__ == "__main__":
     p=Personne(1,"Ali","kharrat")
     p.ajouter_compte(c)
     p.ajouter_compte(c2)
-    p.debuter_compte(1,100)
+    p.crediter_compte(1,100)
     p.affiche_solde_compte(1)
-    p.affiche_nbr_compte()
+    p.affiche_solde_compte(1)
